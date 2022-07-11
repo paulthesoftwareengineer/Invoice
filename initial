@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int invoiceNumber;
+    double salesTaxRate;
+    double productPrice;
+    string productName;
+
+    cout << "Enter the product name: ";
+    cin >> productName;
+    cout << endl;
+    
+    cout << "Enter the sales tax Rate: ";
+    cin >> salesTaxRate;
+    cout << endl;
+ 
+    cout << "Enter the invoice Number: ";
+    cin >> invoiceNumber;
+    cout << endl;
+
+    return 0;
+}
